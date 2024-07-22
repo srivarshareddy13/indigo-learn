@@ -1,0 +1,26 @@
+.placement-container {
+  background-color: #daeaf7;
+  height: 100vh;
+  margin-top: 0px;
+  padding: 20px;
+  background-size: cover;
+}
+.placement-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 30px;
+}
+.placement-text {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+.placement-para {
+  font-size: 25px;
+  color: black;
+  margin-top: 0px;
+}
+.placement-heading {
+  text-align: center;
+}

@@ -1,0 +1,48 @@
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #5c3da0;
+  padding: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.heading {
+  color: white;
+  margin-left: 30px;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  @media screen and (max-width: 768px) {
+    font-size: 10px;
+    margin-left: 15px;
+  }
+}
+.logo-heading {
+  color: white;
+  margin-left: 0px;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  @media screen and (max-width: 768px) {
+    font-size: 10px;
+  }
+}
+.button {
+  background-color: white;
+  color: #5c3da0;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 0px;
+  padding: 5px;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+}

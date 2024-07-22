@@ -1,0 +1,60 @@
+.card-items {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row;
+
+  margin-left: 10px;
+}
+.learning-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top-heading {
+  color: #ffffff;
+  height: 60px;
+  background-color: #5c3da0;
+  font-size: 25px;
+  margin-top: 0px;
+  text-align: center;
+  padding: 10px;
+  @media screen and (max-width: 768px) {
+    height: 40px;
+  }
+}
+.bottom-heading {
+  color: #ffffff;
+  height: 40px;
+  text-align: center;
+  background-color: #5c3da0;
+  font-size: 25px;
+  @media screen and (max-width: 768px) {
+    height: 30px;
+  }
+}
+.list-type {
+  list-style-type: square;
+}
+.middle-card {
+  height: 300px;
+  @media screen and (max-width: 768px) {
+    height: 200px;
+  }
+}
+.learning-card {
+  background-color: #e8eef3;
+  height: 400px;
+  width: 300px;
+  margin-left: 30px;
+  @media screen and (max-width: 768px) {
+    height: 300px;
+    width: 200px;
+  }
+}
+.headers {
+  font-size: 20px;
+  @media screen and (max-width: 768px) {
+    font-size: 10px;
+  }
+}
